@@ -7,7 +7,7 @@ terraform {
   }
 }
 
-# Configure the AWS Provider
+# Configure the AWS Provider   testing
 provider "aws" {
   region = "ap-south-1"
   access_key =  var.accesskey
