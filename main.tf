@@ -26,7 +26,7 @@ resource "aws_instance" "web2" {
 terraform {
   backend "s3" {
     # Replace this with your bucket name!
-    bucket         = "estin-hassi-module-27nov202012"
+    bucket         = "mybucket-1207dec20201"
     key            = "global/nonprod/terraform.tfstate"
     region         = "ap-south-1" 
   }
