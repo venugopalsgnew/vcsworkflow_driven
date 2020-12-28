@@ -7,7 +7,7 @@ terraform {
   }
 }
 
-# Configure the AWS Provider   testing   for statefile s3 testing - for testing
+# Configure the AWS Provider   testing   for statefile s3 testing - for testing  .
 provider "aws" {
   region = "ap-south-1"
   access_key =  var.accesskey
